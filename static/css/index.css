@@ -150,7 +150,7 @@ header,
     }
 
     .hamburger-container{
-        display: block;
+        display: block !important;
     }
 
     header{
@@ -166,7 +166,7 @@ header,
     }
 
     .main{
-        margin:6em 1.5rem;
+        margin:6em 1.5rem !important;
     }
 }
 
