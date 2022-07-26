@@ -3,7 +3,7 @@
 }
 
 .main-form{
-    background-color: #0d1625;
+    background-color: var(--dark-blue-color);
     padding:20px;
     border-radius: 8px;
 }

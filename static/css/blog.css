@@ -6,7 +6,7 @@
 
 .card{
     border:none !important;
-    background-color: #0e1726 !important;
+    background-color: #1a263b !important;
     object-fit: cover;
     font-family: var(--main-font) !important;
     min-width: 250px !important;

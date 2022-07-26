@@ -61,7 +61,7 @@
     /* background-color: #506690; */
     color:#888ea8 !important;
     transition: opacity 500ms;
-    opacity: 0.85;
+    opacity: 0.7;
     width:100%;
     font-size:13px;
     padding:14px;
@@ -83,8 +83,12 @@
     opacity: 1;
 }
 
-.modal-nav svg,
+.modal-nav i,
 .modal-nav li
 {
     color:#888ea8;
+}
+
+.modal-nav-item i{
+    font-size:22px;
 }

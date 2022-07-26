@@ -11,8 +11,10 @@
     --main-font: 'Quicksand', sans-serif;
     --my-margin-inline: 2.5rem;
     --my-border-radius: 7px;
-    --light-cyan-color: #009688;
-    --dark-blue-color: #191e3a;
+    
+    --light-cyan-color: #22b1a2;
+    --border-color: #293349b6;
+    --dark-blue-color: #0e1d31;
 }
 
 /** MY VARIABLES END ----------------------------------------------- */
@@ -35,7 +37,7 @@ html{
 }
 
 body{
-    background-color: hsl(233, 60%, 6%) !important;
+    background-color: hsl(235, 37%, 7%) !important;
 }
 
 img{
@@ -99,7 +101,7 @@ header,
 
 .info-content{
     color:white;
-    background-color: #0d1626;
+    background-color: #13233d;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 
     0 1px 18px 0 rgba(0,0,0,.12), 
     0 3px 5px -1px rgba(0,0,0,.2);

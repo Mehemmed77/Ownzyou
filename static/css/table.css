@@ -50,14 +50,10 @@
 
 .table-container{
     --my-border-radius:5px;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14),
-    0 1px 18px 0 rgba(0,0,0,.12),
-    0 3px 5px -1px rgba(0,0,0,.2);
-
     padding:20px 35px;
     margin-top:4em;
     overflow:scroll;
-    background-color:#0e1726;
+    background-color:#0d1b33;
     border-radius: var(--my-border-radius);
     box-shadow: 0 6px 10px 0 rgba(0,0,0,.14),
     0 1px 18px 0 rgba(0,0,0,.12),
@@ -66,8 +62,8 @@
 
 tr{
     transition: 300ms;
-    border-top:1px solid var(--dark-blue-color) !important;
-    border-bottom:1px solid var(--dark-blue-color) !important;
+    border-top:1px solid var(--border-color) !important;
+    border-bottom:1px solid var(--border-color) !important;
 }
 
 tr:nth-child(2) > td{
