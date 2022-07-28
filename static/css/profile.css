@@ -1,0 +1,88 @@
+#input-trigger{
+    display: none;
+}
+
+.main-form{
+    background-color: var(--dark-blue-color);
+    align-items: center;
+    flex-wrap: wrap;
+    gap:7em;
+    padding:2.5em;
+    border-radius: 7px;
+}
+
+.labels-container{
+    width:fit-content;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.profile-image{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blue-link-text{
+    font-weight: 600;
+    cursor:pointer;
+    transition: color 300ms;
+    color:rgb(40, 114, 211) !important;
+}
+
+.blue-link-text:hover{
+    color:rgb(35, 83, 146) !important;
+}
+
+.inner-information + .inner-information{
+    margin-top:30px;
+}
+
+.information-container label{
+    display: block;
+    color:rgb(235, 233, 233);
+    font-weight: 600;
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+.input-info{
+    width:100%;
+}
+
+.input-info,.input-info:focus{
+    transition: 500ms;
+    border:none !important;
+    border-radius: 0px;
+    outline:none;
+    color:#08b8a6cb ;
+    caret-color: #08b8a6;
+    font-size: 17px;
+    padding:6px 10px;
+    background-color: transparent !important;
+    border-bottom:2px solid rgba(31, 93, 134, 0.719) !important;
+}
+
+.change-password{
+    color:white;
+    font-weight: 600;    
+}
+
+
+.save-changes{
+    float: left !important;
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width: 835px){
+    .main-form{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .profile-image{
+        width:200px;
+        height:200px;
+    }
+}

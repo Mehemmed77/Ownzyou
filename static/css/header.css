@@ -25,18 +25,25 @@ header{
 }
 
 .main-nav{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
     gap:13px;
     padding-left:0 !important;
     margin-bottom:0 !important;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
-.main-nav-item:not(:last-of-type){
+.main-nav-item{
     border-right:1px solid #515365;
 }
 
+.main-nav-item a{
+    align-items: center;
+}
+
 .main-nav-item a,
-.main-nav-item svg
+.main-nav-item i
 {
     transition: 500ms;
     opacity: 0.8;

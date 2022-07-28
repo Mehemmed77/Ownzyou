@@ -138,7 +138,7 @@ td{
     color: var(--light-cyan-color);
     padding:10px 16px;
     border-radius: var(--my-border-radius);
-    border:1px solid var(--dark-blue-color);
+    border:1px solid var(--border-color);
     width: fit-content;
 }
 
