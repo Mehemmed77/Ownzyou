@@ -14,59 +14,69 @@
     <link rel="stylesheet" href="../static/css/table.css">
     <link rel="stylesheet" href="../static/css/header.css">
     <link rel="stylesheet" href="../static/css/profile.css">
-    <link rel="stylesheet" href="../static/css/form.css">
     <script src="https://kit.fontawesome.com/39b4b21fe7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="main">
-        <form action="" class="main-form flex" enctype="multipart/form-data">
+        <div class="main-container flex">
+
             <div class="profile-image-container">
-                <input type="file" id="input-trigger">
-
-                <div class="flex labels-container">
-                    <label for="input-trigger" class="image-trigger">
-                        <img src="../static/images/default.jpg" alt="your image" class="profile-image" 
-                        width="250" height="250">
-                    </label>
-                    <label for="input-trigger" class="image-trigger">
-                        <p class="blue-link-text">Tap To Change Profile Picture</p>
-                    </label>
+                <div class="image-container flex">
+                    <p class="info-text">Mehemmed's Image <i class="fa-solid fa-file-image"></i></p>
+                    <img src="../static/images/default.jpg" alt="User's Image" width="250" height="250">
+                    <p class="user-name">Mehemmed</p>
+                    <p>Activist/ Hacker <i class="fa-solid fa-hat-cowboy"></i></p>
                 </div>
-
             </div>
 
-            <div class="information-container">
-                
-                <div class="inner-information">
-                    <label for="">Your Username: </label>
-                    <input type="text" class="input-info" minlength="5"
-                    placeholder="Your Username" 
-                    value="Mehemmed">
+            <div class="information-wrapper flex">
+
+                <div class="information">
+
+                    <span class="main-title">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Information
+                    </span>
+                    <hr>
+
+                    <div class="text-wrapper">
+                        <div>
+                            <p class="white-text">Username:</p>
+                            <p class="green-text">Mehemmed</p>
+                        </div>
+    
+                        <div>
+                            <p class="white-text">Email:</p>
+                            <p class="green-text">mehemmed@gmail.com</p>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div class="inner-information">
-                    <label for="">Your Email: </label>
-                    <input type="email" class="input-info"
-                    placeholder="Your Email"
-                     value="mehemmedkazimzade54@gmail.com">
-                </div>
+                <div class="information">
 
-                <div class="inner-information">
-                    <p class="change-password">Tap This 
-                        <a href="#" class="blue-link-text">Link To Change Your Password</a>
-                    </p>
-                </div>
+                    <span class="main-title">
+                        <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        Statistics
+                    </span>
+                    <hr>
 
-                <div class="inner-information">
-                    <button class="report-btn btn flex save-changes">
-                        <i class="fa-solid fa-arrow-right"></i>
-                        <span>Save Changes</span>
-                    </button>
-                </div>
+                    <div class="text-wrapper">
 
+                        <div>
+                            <p class="white-text">Attacker Point:</p>
+                            <p class="green-text">95</p>
+                        </div>
+    
+                        <div>
+                            <p class="white-text">Total Mirror:</p>
+                            <p class="green-text">54</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-
-        </form>
+        </div>
     </main>
 </body>
 </html>
